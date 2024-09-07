@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".khu_vuc_1">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:text="   " />
+
+    <RelativeLayout
+        android:id="@+id/c"
+        android:background="@drawable/vien"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="10dp"
+        android:layout_below="@id/textView2"
+        android:layout_toLeftOf="@id/textView2"
+        android:layout_width="150dp"
+        android:layout_height="150dp">
+
+        <ImageView
+            android:id="@+id/imgden1"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_centerInParent="true"
+            android:background="@drawable/sang" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/d"
+        android:background="@drawable/vien"
+        android:layout_centerVertical="true"
+        android:layout_below="@id/textView2"
+        android:layout_toRightOf="@id/textView2"
+        android:layout_marginEnd="10dp"
+        android:layout_width="150dp"
+        android:layout_height="150dp">
+
+        <ImageView
+            android:id="@+id/imgden2"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_centerInParent="true"
+            android:background="@drawable/sang" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/a"
+        android:background="@drawable/vien"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="10dp"
+        android:layout_above="@id/textView2"
+        android:layout_toLeftOf="@id/textView2"
+        android:layout_width="150dp"
+        android:layout_height="150dp">
+
+        <ImageView
+            android:layout_marginLeft="5dp"
+            android:layout_centerVertical="true"
+            android:id="@+id/imgTemp"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            app:srcCompat="@drawable/tempareture" />
+
+        <TextView
+            android:id="@+id/txtTemp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_marginLeft="10dp"
+            android:layout_toRightOf="@id/imgTemp"
+            android:text="nan℃"
+            android:textSize="23dp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/b"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_above="@id/textView2"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="1dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="2dp"
+        android:layout_toRightOf="@id/textView2"
+        android:background="@drawable/vien">
+
+        <ImageView
+            android:id="@+id/imgHum"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="5dp"
+            app:srcCompat="@drawable/humidity" />
+
+        <TextView
+            android:id="@+id/txtHum"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_marginLeft="20dp"
+            android:layout_toRightOf="@id/imgHum"
+            android:text="nan%"
+            android:textSize="23dp" />
+    </RelativeLayout>
+
+    <TextView
+        android:paddingLeft="10dp"
+        android:background="@drawable/vien"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:layout_marginTop="100dp"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/textView5"
+        android:layout_width="150dp"
+        android:layout_height="40dp"
+        android:text="KHU VUC 1" />
+
+    <RelativeLayout
+        android:id="@+id/back"
+        android:background="@drawable/vien"
+        android:layout_marginTop="220dp"
+        android:layout_below="@+id/textView2"
+        android:layout_centerHorizontal="true"
+        android:layout_width="100dp"
+        android:layout_height="60dp">
+
+        <TextView
+            android:id="@+id/txtBack"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="Back"
+            android:textSize="30dp" />
+    </RelativeLayout>
+
+</RelativeLayout>
+

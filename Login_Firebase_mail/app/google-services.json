@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "42692579497",
+    "project_id": "loginfirebasemail",
+    "storage_bucket": "loginfirebasemail.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:42692579497:android:f9b22a7ef4cfc281fe59b8",
+        "android_client_info": {
+          "package_name": "com.example.login_firebase_mail"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCH-KQ-O8gr6mjxcaHVDgiu9ScnQSIr5W0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".login_activity">
+
+    <ImageView
+        android:layout_marginTop="100dp"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/img1"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        app:srcCompat="@drawable/user" />
+
+    <EditText
+        android:textSize="16dp"
+        android:paddingLeft="20dp"
+        android:background="@drawable/vien"
+        android:id="@+id/edus"
+        android:layout_width="250dp"
+        android:layout_height="35dp"
+        android:layout_below="@id/img1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:ems="10"
+        android:hint="Tên đăng nhập"
+        android:inputType="text" />
+
+    <EditText
+        android:textSize="16dp"
+        android:paddingLeft="20dp"
+        android:background="@drawable/vien"
+        android:id="@+id/edps"
+        android:layout_width="250dp"
+        android:layout_height="35dp"
+        android:layout_below="@id/edus"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:ems="10"
+        android:hint="Mật khẩu"
+        android:inputType="text" />
+
+    <RelativeLayout
+        android:layout_below="@id/edps"
+        android:layout_marginTop="30dp"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/btn"
+        android:layout_width="150dp"
+        android:layout_height="30dp"
+        android:background="@drawable/vien">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="LOGIN" />
+    </RelativeLayout>
+
+</RelativeLayout>

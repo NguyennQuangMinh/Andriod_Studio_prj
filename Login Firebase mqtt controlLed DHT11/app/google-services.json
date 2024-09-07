@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "70794767234",
+    "project_id": "loginfirebasemqttdhtcontrolled",
+    "storage_bucket": "loginfirebasemqttdhtcontrolled.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:70794767234:android:a1e6e8fce1cbf127ce7d9b",
+        "android_client_info": {
+          "package_name": "com.example.loginfirebasemqttcontrolleddht11"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDZ0L96lKenur2i-jDzdZ3W-fJPVObSGJY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

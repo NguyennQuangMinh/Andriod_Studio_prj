@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item android:id="@+id/nav_home"
+            android:title="@string/nav_home"
+            android:icon="@drawable/ic_home"/>
+    </group>
+
+    <item android:title="@string/nav_taikhoan">
+        <menu>
+            <item android:id="@+id/nav_themtaikhoan"
+                android:title="@string/nav_themtaikhoan"
+                android:icon="@drawable/ic_themtaikhoan"/>
+
+            <item android:id="@+id/nav_doimatkhau"
+                android:title="@string/nav_doimatkhau"
+                android:icon="@drawable/ic_doimatkhau"/>
+
+            <item android:id="@+id/nav_dangxuat"
+                android:title="@string/nav_dangxuat"
+                android:icon="@drawable/ic_dangxuat"/>
+        </menu>
+    </item>
+
+</menu>
