@@ -1,0 +1,31 @@
+R_DEF: Internal format may change without notice
+local
+color black
+color white
+drawable ic_launcher_background
+drawable ic_launcher_foreground
+id action_settings
+id button
+id button2
+id button3
+id button4
+id listView
+id lumn
+id seekBar
+id textView
+id textView2
+id textView3
+layout activity_device_list
+layout activity_led_control
+menu menu_device_list
+menu menu_led_control
+mipmap ic_launcher
+mipmap ic_launcher_round
+string action_settings
+string app_name
+string hello_world
+string title_activity_led_control
+style Base.Theme.Ble_controlled
+style Theme.Ble_controlled
+xml backup_rules
+xml data_extraction_rules
