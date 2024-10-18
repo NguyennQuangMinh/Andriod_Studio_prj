@@ -60,7 +60,7 @@ public class khu_vuc_1 extends AppCompatActivity {
 
     public void MQTT() {
         String clientID = MqttClient.generateClientId();
-        final MqttAndroidClient client = new MqttAndroidClient(this.getApplicationContext(), "tcp://broker.hivemq.com:1883", clientID);
+        final MqttAndroidClient client = new MqttAndroidClient(this.getApplicationContext(), "tcp://mqtt.eclipseprojects.io:1883", clientID);//"tcp://broker.hivemq.com:1883"
         MqttConnectOptions options = new MqttConnectOptions();
         options.setMqttVersion(MqttConnectOptions.MQTT_VERSION_3_1);
         options.setCleanSession(false);
@@ -161,6 +161,7 @@ public class khu_vuc_1 extends AppCompatActivity {
             e.printStackTrace();
         }
     } // end MQTT
+
     public void SUB( MqttAndroidClient client, String topic)
     {
         int qos = 1;
