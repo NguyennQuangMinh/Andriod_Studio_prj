@@ -43,7 +43,8 @@ public class MainActivity extends AppCompatActivity {
 
     public void MQTT() {
         String clientID = MqttClient.generateClientId();
-        final MqttAndroidClient client = new MqttAndroidClient(this.getApplicationContext(), "tcp://mqtt.eclipseprojects.io:1883", clientID);//"tcp://broker.hivemq.com:1883"
+        final MqttAndroidClient client = new MqttAndroidClient(this.getApplicationContext(),
+                "tcp://mqtt.eclipseprojects.io:1883", clientID);//"tcp://broker.hivemq.com:1883"
         MqttConnectOptions options = new MqttConnectOptions();
         options.setMqttVersion(MqttConnectOptions.MQTT_VERSION_3_1);
         options.setCleanSession(false);
